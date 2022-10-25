@@ -42,12 +42,12 @@ const Habilidades = () => {
         <div className='flex'> 
              <div className=" flex flex-col mx-8 my-8 w-40  shadow-md shadow-[#141414] hover:scale-105 duration-300">
                 <img className="w-20 mx-auto" src={javascript} alt="htmlicon" />
-                <p className="my-4 text-white mx-auto text-2xl">  Basico JavaScript</p>
+                <p className="my-4 text-white mx-auto text-1xl">  Basico JavaScript</p>
              </div>
 
             <div className=" flex flex-col mx-8 my-8 w-40  shadow-md shadow-[#141414] hover:scale-105 duration-300">
                 <img className="w-20 mx-auto" src={react} alt="htmlicon" />
-                <p className="my-4 text-white mx-auto text-2xl"> Basico  React</p>
+                <p className="my-4 text-white mx-auto text-1xl"> Basico  React</p>
             </div>
         </div>
 
