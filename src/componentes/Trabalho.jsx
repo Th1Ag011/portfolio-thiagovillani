@@ -57,8 +57,8 @@ const Trabalho = () => {
           {/*hover efeito*/}
 
           <div className=" pt-4 opacity-0 group-hover:opacity-100">
-            <span className="text-2xl font-bold text-white tracking-wider  ">
-              Projeto Html e Css
+            <span className="text-1xl font-bold text-white tracking-wider  ">
+              Projeto Html/Css & JavaScript
             </span>
 
             <div className="pt-8 text-center">
@@ -85,7 +85,7 @@ const Trabalho = () => {
 
           <div className=" pt-4 opacity-0 group-hover:opacity-100">
             <span className="text-2xl font-bold text-white tracking-wider  ">
-              Projeto forms
+              Projeto forms C#
             </span>
 
             <div className="pt-8 text-center">
