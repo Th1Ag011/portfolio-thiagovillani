@@ -1,5 +1,8 @@
 import React from 'react';
 import WorkImg from "../pictures/trabalho2.jpg";
+import WorkImg2 from "../pictures/trabalhosql.jpg";
+import WorkImg3 from "../pictures/maxshoes.jpg";
+
 
 const Trabalho = () => {
   return (
@@ -73,7 +76,7 @@ const Trabalho = () => {
         </div>
         {/*grid items*/}
         <div
-          style={{ backgroundImage: `url('${WorkImg}')` }}
+          style={{ backgroundImage: `url('${WorkImg3}')` }}
           className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
         >
           {/*hover efeito*/}
@@ -84,12 +87,12 @@ const Trabalho = () => {
             </span>
 
             <div className="pt-8 text-center">
-              <a href="/">
+              <a href="https://th1ag011.github.io/Maxshoes/">
                 <button className=" rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                   Demo{" "}
                 </button>
               </a>
-              <a href="/">
+              <a href="https://drive.google.com/drive/folders/1IZ2kN-ROn-mSsMagEz2KeVAIbCUcesAR?usp=sharing">
                 <button className=" rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                   {" "}
                   Code
@@ -100,24 +103,24 @@ const Trabalho = () => {
         </div>
         {/*grid items*/}
         <div
-          style={{ backgroundImage: `url('${WorkImg}')` }}
+          style={{ backgroundImage: `url('${WorkImg2}')` }}
           className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
         >
           {/*hover efeito*/}
 
           <div className=" pt-4 opacity-0 group-hover:opacity-100">
             <span className="text-2xl font-bold text-white tracking-wider  ">
-              Projeto Html e Css
+              Projeto MySQL
             </span>
 
             <div className="pt-8 text-center">
-              <a href="/">
+              <a href="https://photos.app.goo.gl/Tu6x5UunuXWWLJHJ7">
                 <button className=" rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                   Demo{" "}
                 </button>
               </a>
-              <a href="/">
-                <button className=" rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+              <a   href="https://drive.google.com/file/d/1roXolC6rrLyTxhDcTF3x2mh_QJUAoV63/view?usp=sharing" >
+                <button  className=" rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                   {" "}
                   Code
                 </button>

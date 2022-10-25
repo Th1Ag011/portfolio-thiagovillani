@@ -1,69 +1,45 @@
-import React from "react";
-import emailjs from "@emailjs/browser";
+import React from 'react'
 import {FaGithub, FaLinkedin,} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 
-
-const Contato = () => {
-  
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "serviceid-thiagovillani",
-        "templeteid-thiagovillani",
-        e.target,
-        "6jeKf6zfC3FTLgHf_"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          console.log("message sent");
-          MessageChannel.succes('login sucess')
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
-  };
-
+const Contatoss = () => {
   return (
     <div name='contato' className=" w-full  h-screen  flex flex-col items-center justify-center">
-      <h1 className="  sm:text-5xl text-4xl font-bold  text-[#bccdd7] border-b-4  border-[#618bccdd7192] inline">
-        {" "}
-        Contato{" "}
-      </h1>
-      <form
-        onSubmit={sendEmail}
-        className="flex flex-col items-start justify-center my-10"
-      >
-        <input
-          type="text"
-          placeholder=" Digite seu nome."
-          name="user_name"
-          className="bg-[#ffffff] font-mono lg:w-[600px] w-[400px]  my-2 h-[50px] rounded-md"
-        />
-        <input
-          type="email"
-          placeholder=" Digite seu email."
-          name="user_email"
-          className="bg-[#ffffff]  font-mono lg:w-[600px] w-[400px] my-2 h-[50px] rounded-md"
-        />
-        <input
-          type="text"
-          placeholder="Digite uma mensagem..."
-          name="message"
-          className="bg-[#ffffff] my-2 pb-20 px-1 h-[150px] lg:w-[600px] text-gray-400 w-[400px] font-mono rounded-md"
-        />  
-        <a href='https://forms-sended-1.vercel.app' className="bg-[#bae6fd] font-normal  h-[40px] my-2 py-2 lg:w-[600px] w-[400px] text-center rounded-sm">
-          Enviar
-        </a>
-      </form>
+    <h1 className="  sm:text-5xl text-4xl font-bold  text-[#bccdd7] border-b-4  border-[#618bccdd7192] inline">
+      {" "}
+      Contato{" "}
+    </h1>
+    <form
+      action="https://formsubmit.co/thiagovm016@gmail.com" method="POST"
+      className="flex flex-col items-start justify-center my-10"
+    >
+      <input
+        type="text"
+        placeholder=" Digite seu nome."
+        name="name" 
+        className="bg-[#ffffff] font-mono lg:w-[600px] w-[400px]  my-2 h-[50px] rounded-md"
+      />
+      <input
+        type="email"
+        placeholder=" Digite seu email."
+        name="email"
+        required
+        className="bg-[#ffffff]  font-mono lg:w-[600px] w-[400px] my-2 h-[50px] rounded-md"
+      />
+      <input
+        type="text"
+        placeholder="Digite uma mensagem..."
+        name="message"
+        required
+        className="bg-[#ffffff] my-2 pb-20 px-1 h-[150px] lg:w-[600px] text-gray-400 w-[400px] font-mono rounded-md"
+      />  
+      <input type="hidden" name="_next" value="https://forms-sended.vercel.app" />
+      <button className="bg-[#bae6fd] font-normal  h-[40px] my-2 py-2 lg:w-[600px] w-[400px] text-center rounded-sm">
+        Enviar
+      </button>
+    </form>
 
 <div className='md:flex lg:hidden flex flex-wrap h-[70px] max-w-[600px] justify-between items-end list-none'> 
 
@@ -86,7 +62,7 @@ const Contato = () => {
 </div>  
 
 </div>
-  );
-};
+  )
+}
 
-export default Contato;
+export default Contatoss
