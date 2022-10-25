@@ -42,25 +42,25 @@ const Habilidades = () => {
         <div className='flex'> 
              <div className=" flex flex-col mx-8 my-8 w-40  shadow-md shadow-[#141414] hover:scale-105 duration-300">
                 <img className="w-20 mx-auto" src={javascript} alt="htmlicon" />
-                <p className="my-4 text-white mx-auto text-2xl"> HTML</p>
+                <p className="my-4 text-white mx-auto text-2xl">   JavaScript</p>
              </div>
 
             <div className=" flex flex-col mx-8 my-8 w-40  shadow-md shadow-[#141414] hover:scale-105 duration-300">
                 <img className="w-20 mx-auto" src={react} alt="htmlicon" />
-                <p className="my-4 text-white mx-auto text-2xl"> CSS</p>
+                <p className="my-4 text-white mx-auto text-2xl"> Basico  React</p>
             </div>
         </div>
 
           <div className='flex'> 
              <div className=" flex flex-col mx-8 my-8 w-40 shadow-md shadow-[#141414] hover:scale-105 duration-300">
                   <img className="w-20 mx-auto" src={tailwind} alt="htmlicon" />
-                  <p className="my-4 text-white mx-auto text-2xl"> C#</p>
+                  <p className="my-4 text-white mx-auto text-2xl"> Tailwind</p>
               </div>
           
 
              <div className=" flex flex-col mx-8 my-8 w-40 shadow-md shadow-[#141414] hover:scale-105 duration-300">
                 <img className="w-20 mx-auto" src={figma} alt="htmlicon" />
-                <p className="my-4 mx-auto text-white text-2xl"> SQL</p>
+                <p className="my-4 mx-auto text-white text-2xl"> Figma</p>
              </div>
           </div>
       </div>

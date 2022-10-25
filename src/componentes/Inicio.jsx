@@ -10,9 +10,9 @@ const Inicio = () => {
         <h1 className=' my-2 text-[#bae6fd] md:text-6xl  sm:text-5xl text-4xl font-bold md:py-3'> Thiago Villani Marinho.</h1>
         <div>
             <p className=' text-[#64748b]  md:text-4xl sm:text-4xl text-xl  font-bold '>  E sou um Desenvolvedor web.  </p>
-            <p className='text-[#bae6fd] font-bold  md:text-2xl text-xl my-1'> Possuo conhecimento em
-            <Typed className='text-[#bae6fd] mx-2 font-bold text-2xl'
-            strings={['Html' , 'Css / Tailwind' ,'C# / Sql', 'Javascript / React']}
+            <p className='text-[#bae6fd] font-bold  md:text-2xl text-xl my-1'> Possuo conhecimento 
+            <Typed className='text-[#bae6fd] mx-1 font-bold text-2xl'
+            strings={['em Html' , ' em Css / Tailwind' ,' em C# / Sql', ' basico em Javascript / React']}
             typeSpeed={120}
             backSpeed={160}
             loop
