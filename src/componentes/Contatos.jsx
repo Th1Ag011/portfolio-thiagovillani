@@ -57,7 +57,7 @@ const Contatos = () => {
 <HiOutlineMail size={50} />
 </a>
 
-<a href="https://forms-sended-1.vercel.app" target= 'blank' className='px-4  text-[#cecece] hover:scale-105 duration-300'>
+<a href="https://github.com/Th1Ag011" target= 'blank' className='px-4  text-[#cecece] hover:scale-105 duration-300'>
 <FaGithub size={50} />
 </a>
 
