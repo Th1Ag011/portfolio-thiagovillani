@@ -7,12 +7,14 @@ import Trabalhos from './componentes/Trabalho';
 import Contato from './componentes/Contatos'; 
 
 
+
+
 function App() {
   return (
     <div >
      <Navegacao/>
      <Inicio/>
-     <Sobre/>
+     <Sobre />
      <Habilidades/>
      <Trabalhos/>
      <Contato/> 

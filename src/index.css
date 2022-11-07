@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body { background-color: #202024;}
+
+body  { @apply bg-[#202024] dark:bg-[#e6e4e4] duration-500;}
+
+
 
 .content-div{
+ 
   background-repeat: no-repeat ;
   background-size: cover;
   background-position: center;
@@ -17,3 +21,4 @@ body { background-color: #202024;}
   rgba(122, 157, 255, 0.8),
    hsla(242, 74%, 61%, 0.8)
 )!important}
+

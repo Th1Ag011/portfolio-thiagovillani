@@ -11,56 +11,56 @@ import tailwind from "../pictures/tailwind.png";
 const Habilidades = () => {
   return (
     <div name='habilidades' className='w-full h-screen  flex flex-col items-center justify-center '>
-     <h1 className='xl:mt-10 mt-24  sm:text-5xl text-4xl font-bold  text-[#bccdd7] border-b-4  border-[#bccdd7] inline'> Habilidades </h1>
+     <h1 className='xl:mt-10 mt-24  sm:text-5xl text-4xl font-bold  text-[#bccdd7] dark:text-[#445f99] dark:border-[#445f99] border-b-4  border-[#bccdd7] inline'> Habilidades </h1>
 
      <div className='flex justify-center flex-wrap max-w-[1100px] max-h-[1000px] py-20 '> 
 
         <div className='flex'> 
-            <div className=" flex flex-col mx-8 my-8 w-40  shadow-md shadow-[#141414] hover:scale-105 duration-300">
+            <div className=" flex flex-col mx-8 my-8 w-40  shadow-md shadow-[#141414] dark:bg-[#afafaf] hover:scale-105 duration-300">
                 <img className="w-20 mx-auto" src={Html} alt="htmlicon" />
-                <p className="my-4 text-white mx-auto text-2xl"> HTML</p>
+                <p className="my-4   text-white mx-auto text-2xl"> HTML</p>
             </div>
 
-            <div className=" flex flex-col mx-8 my-8 w-40 shadow-md shadow-[#141414] hover:scale-105 duration-300">
+            <div className=" flex flex-col mx-8 my-8 w-40 shadow-md shadow-[#141414] dark:bg-[#afafaf] hover:scale-105 duration-300">
                 <img className="w-20 mx-auto" src={CSS} alt="htmlicon" />
-                <p className="my-4 text-white mx-auto text-2xl"> CSS</p>
+                <p className="my-4  text-white mx-auto text-2xl"> CSS</p>
           </div>
         </div> 
           
         <div className='flex'> 
-            <div className=" flex flex-col mx-8  my-8 w-40 shadow-md shadow-[#141414] hover:scale-105 duration-300">
+            <div className=" flex flex-col mx-8  my-8 w-40 shadow-md shadow-[#141414] dark:bg-[#afafaf] hover:scale-105 duration-300">
                 <img className="w-20 mx-auto" src={csharp} alt="htmlicon" />
-                <p className="my-4 text-white mx-auto text-2xl"> C#</p>
+                <p className="my-4  text-white mx-auto text-2xl"> C#</p>
             </div>
           
-          <div className=" flex flex-col mx-8 my-8 w-40  shadow-md shadow-[#141414] hover:scale-105 duration-300">
+          <div className=" flex flex-col mx-8 my-8 w-40  shadow-md shadow-[#141414] dark:bg-[#afafaf] hover:scale-105 duration-300">
                 <img className="w-20 mx-auto" src={SQL} alt="htmlicon" />
                 <p className="my-4 mx-auto text-white text-2xl"> SQL</p>
           </div>
         </div>
 
         <div className='flex'> 
-             <div className=" flex flex-col mx-8 my-8 w-40  shadow-md shadow-[#141414] hover:scale-105 duration-300">
+             <div className=" flex flex-col mx-8 my-8 w-40  shadow-md shadow-[#141414] dark:bg-[#afafaf] hover:scale-105 duration-300">
                 <img className="w-20 mx-auto" src={javascript} alt="htmlicon" />
                 <p className="my-4 text-white mx-auto text-1xl">  Basico JavaScript</p>
              </div>
 
-            <div className=" flex flex-col mx-8 my-8 w-40  shadow-md shadow-[#141414] hover:scale-105 duration-300">
+            <div className=" flex flex-col mx-8 my-8 w-40  shadow-md shadow-[#141414] dark:bg-[#afafaf] hover:scale-105 duration-300">
                 <img className="w-20 mx-auto" src={react} alt="htmlicon" />
                 <p className="my-4 text-white mx-auto text-1xl"> Basico  React</p>
             </div>
         </div>
 
           <div className='flex'> 
-             <div className=" flex flex-col mx-8 my-8 w-40 shadow-md shadow-[#141414] hover:scale-105 duration-300">
+             <div className=" flex flex-col mx-8 my-8 w-40 shadow-md shadow-[#141414] dark:bg-[#afafaf] hover:scale-105 duration-300">
                   <img className="w-20 mx-auto" src={tailwind} alt="htmlicon" />
                   <p className="my-4 text-white mx-auto text-2xl"> Tailwind</p>
               </div>
           
 
-             <div className=" flex flex-col mx-8 my-8 w-40 shadow-md shadow-[#141414] hover:scale-105 duration-300">
+             <div className=" flex flex-col mx-8 my-8 w-40 shadow-md shadow-[#141414] dark:bg-[#afafaf] hover:scale-105 duration-300">
                 <img className="w-20 mx-auto" src={figma} alt="htmlicon" />
-                <p className="my-4 mx-auto text-white text-2xl"> Figma</p>
+                <p className="my-4  mx-auto text-white text-2xl"> Figma</p>
              </div>
           </div>
       </div>

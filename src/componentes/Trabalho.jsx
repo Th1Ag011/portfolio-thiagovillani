@@ -13,7 +13,7 @@ const Trabalho = () => {
   >
     <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center  w-full h-full">
       <div className="py-20 text-center">
-        <p className="lg:mt-10 mt-64 sm:text-5xl text-4xl font-bold  text-[#b4cddc] border-b-4  border-[#98c4de] inline">
+        <p className="lg:mt-10 mt-64 sm:text-5xl text-4xl font-bold dark:text-[#445f99] dark:border-[#445f99] text-[#b4cddc] border-b-4  border-[#98c4de] inline">
           Trabalhos
         </p>
 

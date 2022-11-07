@@ -4,22 +4,37 @@ import Logo from "../pictures/logo.png";
 import {FaGithub, FaLinkedin,} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { Link} from 'react-scroll'
+import { Link} from 'react-scroll'; 
+import { HiMoon , HiSun } from "react-icons/hi";
 
 const Nav = () => {
     
+   const [ dark, setDark] = useState(true);
+
     const [nav, setNav] = useState(false);
     const handleNav = () => setNav(!nav); 
 
+
   return (
-    <div name='nav' className=' text-gray-200 flex justify-between items-center h-24  w-full '>
-        <div className='fixed justify-between items-center w-full h-24  z-20 px-4 flex  bg-[#202024]'>
+    <div name='nav' cclassName=' text-[#fff] flex justify-between items-center h-24  w-full '>
+         <div className='fixed justify-between items-center w-full h-24  z-20 px-4 flex  bg-[#202024]'>
         <div className='z-10 w-32 mx-5  '> 
         <img  src={Logo} alt="React Logo" /> </div> 
        
+       
        {/*menu*/}
 
-        <ul className=' bg-transparent  right-0 hidden md:flex '>
+
+
+        <ul className=' bg-transparent  right-0 hidden md:flex items-center text-[#fff] '>
+
+        <Link to='inicio' smooth={true} duration={500}> {dark ?  <HiMoon className='cursor-pointer dark:text-white hover:text-[#bbb8b8] duration-150' size={25} onClick={() => {
+          document.querySelector('html').classList.toggle('dark')
+          setDark(!dark)}}  /> : <HiSun className='cursor-pointer dark:text-white hover:dark:text-[#bbb8b8] duration-150' size={25} onClick={() => {
+            document.querySelector('html').classList.toggle('dark')
+            setDark(!dark)}} />  } 
+            
+        </Link>
         <Link to="inicio" smooth={true} duration={500}> 
         <li className='p-4 hover:scale-110 duration-200 '>Inicio</li>        
         </Link>
@@ -57,6 +72,12 @@ const Nav = () => {
         }
       >
             <ul className='pt-24 uppercase ' >
+           <Link to='inicio' smooth={true}  onClick={handleNav} duration={500}> {dark ?  <HiMoon className='mx-5 cursor-pointer dark:text-white hover:text-[#bbb8b8] duration-150' size={25} onClick={() => {
+            document.querySelector('html').classList.toggle('dark')
+            setDark(!dark)}}  /> : <HiSun className='mx-5 cursor-pointer dark:text-white hover:dark:text-[#bbb8b8] duration-150' size={25} onClick={() => {
+            document.querySelector('html').classList.toggle('dark')
+            setDark(!dark)}} />  } 
+           </Link>
             <Link to="inicio" onClick={handleNav} smooth={true} duration={500}>    
              <li className='p-4 hover:bg-[#3c3c41b3] '>Inicio</li></Link>
             <Link to="sobre" onClick={handleNav} smooth={true} duration={500}>    
@@ -67,6 +88,7 @@ const Nav = () => {
              <li className='p-4 hover:bg-[#3c3c41b3]  '>Trabalhos</li></Link>
             <Link to="contato" onClick={handleNav} smooth={true} duration={500}>    
              <li className='p-4 hover:bg-[#3c3c41b3]  '>Contato</li></Link>
+            
             </ul> 
         
         </div>
@@ -110,6 +132,7 @@ const Nav = () => {
         </ul>
       </div>
     </div>
+  
   )
 }
 
