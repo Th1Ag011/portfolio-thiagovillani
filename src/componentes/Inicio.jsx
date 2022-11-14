@@ -4,10 +4,10 @@ import { Link} from 'react-scroll'
 
 const Inicio = () => {
   return (
-    <div className='text-white mx-auto h-screen bg-world' name='inicio'>
+    <div className='text-white mx-auto h-screen bg-world border' name='inicio'>
         <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-        <p className='text-[#64748b] dark:text-[#64748b] text-4xl font-bold '> Ola, meu nome é</p>
-        <h1 className=' my-2 text-[#bae6fd] dark:text-[#445f99] md:text-6xl  sm:text-5xl text-4xl font-bold md:py-3'> Thiago Villani Marinho.</h1>
+        <p className='text-[#64748b] dark:text-[#64748b] text-4xl font-bold '> Olá, meu nome é</p>
+        <h1 className=' my-2 text-[#bae6fd] dark:text-[#445f99] md:text-6xl  sm:text-5xl text-4xl font-bold md:py-3'> Thiago Villani Marinho</h1>
         <div>
             <p className=' text-[#64748b]  md:text-4xl sm:text-4xl text-xl  font-bold '>  E sou um Desenvolvedor web.  </p>
             <p className='text-[#bae6fd] font-bold  dark:text-[#445f99] md:text-2xl text-xl my-1'> Possuo conhecimento 

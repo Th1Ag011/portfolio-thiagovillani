@@ -17,7 +17,7 @@ const Nav = () => {
 
   return (
     <div name='nav' cclassName=' text-[#fff] flex justify-between items-center h-24  w-full '>
-         <div className='fixed justify-between items-center w-full h-24  z-20 px-4 flex  bg-[#202024]'>
+         <div className='fixed justify-between items-center h-24 w-[400px] sm:w-full z-20 px-4 flex border  bg-[#202024]'>
         <div className='z-10 w-32 mx-5  '> 
         <img  src={Logo} alt="React Logo" /> </div> 
        
@@ -56,7 +56,7 @@ const Nav = () => {
           {/*butao hamburger */}
            
         <div className='w-full mx-4 flex justify-end '>
-        <div onClick={handleNav} className='md:hidden z-30 fixed  '> 
+        <div onClick={handleNav} className='md:hidden  text-white mx-24 py-10 z-30 fixed  '> 
             {!nav ? <AiOutlineMenu size={20}/> : <AiOutlineCloseSquare size={20}/>}
             
         </div>
@@ -71,13 +71,14 @@ const Nav = () => {
             : 'md:hidden fixed left-0 top-24 w-[60%] h-full border-r z-10  border-r-[#3c3c41b3] bg-[#202024d8] duration-500' 
         }
       >
-            <ul className='pt-24 uppercase ' >
+            <ul className='pt-24 uppercase text-gray-200 ' >
            <Link to='inicio' smooth={true}  onClick={handleNav} duration={500}> {dark ?  <HiMoon className='mx-5 cursor-pointer dark:text-white hover:text-[#bbb8b8] duration-150' size={25} onClick={() => {
             document.querySelector('html').classList.toggle('dark')
             setDark(!dark)}}  /> : <HiSun className='mx-5 cursor-pointer dark:text-white hover:dark:text-[#bbb8b8] duration-150' size={25} onClick={() => {
             document.querySelector('html').classList.toggle('dark')
             setDark(!dark)}} />  } 
            </Link>
+
             <Link to="inicio" onClick={handleNav} smooth={true} duration={500}>    
              <li className='p-4 hover:bg-[#3c3c41b3] '>Inicio</li></Link>
             <Link to="sobre" onClick={handleNav} smooth={true} duration={500}>    
