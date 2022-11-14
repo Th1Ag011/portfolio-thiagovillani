@@ -9,7 +9,7 @@ const Trabalho = () => {
   return (
     <div
     name="trabalhos"
-    className="w-full md:h-screen text-gray-300 border "
+    className="w-full md:h-screen text-gray-300 "
   >
     <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center  w-full h-full">
       <div className="py-20 text-center">

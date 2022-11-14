@@ -10,7 +10,7 @@ import tailwind from "../pictures/tailwind.png";
 
 const Habilidades = () => {
   return (
-    <div name='habilidades' className='w-full h-screen  flex flex-col items-center justify-center border '>
+    <div name='habilidades' className='w-full h-screen  flex flex-col items-center justify-center '>
      <h1 className='xl:mt-10 mt-24  sm:text-5xl text-4xl font-bold  text-[#bccdd7] dark:text-[#445f99] dark:border-[#445f99] border-b-4  border-[#bccdd7] inline'> Habilidades </h1>
 
      <div className='flex justify-center flex-wrap max-w-[1100px] max-h-[1000px] py-20 '> 

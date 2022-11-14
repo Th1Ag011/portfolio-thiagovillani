@@ -3,7 +3,7 @@ import Pc from "../pictures/pc.webp";
 
 const Sobre = () => {
   return (
-    <div name='sobre' className=' border lg:justify-start justify-center mx-auto  max-w-[1600px] px-4 flex h-screen  items-center '>
+    <div name='sobre' className=' lg:justify-start justify-center mx-auto  max-w-[1600px] px-4 flex h-screen  items-center '>
         <div className=' hidden  2xl:flex  mx-44  '>
            <img className='  my-4 w-[500px]' src={Pc} alt="pc" />
         </div>

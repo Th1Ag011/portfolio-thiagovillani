@@ -17,7 +17,7 @@ const Nav = () => {
 
   return (
     <div name='nav' cclassName=' text-[#fff] flex justify-between items-center h-24  w-full '>
-         <div className='fixed justify-between items-center h-24 w-[400px] sm:w-full z-20 px-4 flex border  bg-[#202024]'>
+         <div className='fixed justify-between items-center h-24 w-[400px] sm:w-full z-20 px-4 flex   bg-[#202024]'>
         <div className='z-10 w-32 mx-5  '> 
         <img  src={Logo} alt="React Logo" /> </div> 
        
@@ -56,7 +56,7 @@ const Nav = () => {
           {/*butao hamburger */}
            
         <div className='w-full mx-4 flex justify-end '>
-        <div onClick={handleNav} className='md:hidden  text-white mx-24 py-10 z-30 fixed  '> 
+        <div onClick={handleNav} className='md:hidden  text-white mx-20 py-10 z-30 fixed  '> 
             {!nav ? <AiOutlineMenu size={20}/> : <AiOutlineCloseSquare size={20}/>}
             
         </div>
