@@ -4,6 +4,7 @@ import WorkImg2 from "../pictures/trabalhosql.jpg";
 import WorkImg3 from "../pictures/maxshoes.jpg";
 import WorkImg4 from "../pictures/formscsharp.jpg";
 import WorkImg5 from "../pictures/trabalhando.jpg";
+import WorkImg6 from "../pictures/calculadora.png";
 
 const Trabalho = () => {
   return (
@@ -133,23 +134,23 @@ const Trabalho = () => {
         </div>
         {/*grid items*/}
         <div
-          style={{ backgroundImage: `url('${WorkImg5}')` }}
+          style={{ backgroundImage: `url('${WorkImg6}')` }}
           className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
         >
           {/*hover efeito*/}
 
           <div className=" pt-4 opacity-0 group-hover:opacity-100">
-            <span className="text-2xl font-bold text-white tracking-wider  ">
-              TRABALHANDO NISSO!!
+            <span className="text-md font-bold text-white tracking-wider  ">
+              Calculadora feita com React 
             </span>
 
             <div className="pt-8 text-center">
-              <a href="/">
+              <a href="https://calculator-three-coral.vercel.app">
                 <button className=" rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                   Demo{" "}
                 </button>
               </a>
-              <a href="/">
+              <a href="https://github.com/Th1Ag011/calculator">
                 <button className=" rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                   {" "}
                   Code
@@ -159,33 +160,7 @@ const Trabalho = () => {
           </div>
         </div>
         {/*grid items*/}
-        <div
-          style={{ backgroundImage: `url('${WorkImg5}')` }}
-          className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-        >
-          {/*hover efeito*/}
-
-          <div className=" pt-4 opacity-0 group-hover:opacity-100">
-            <span className="text-2xl font-bold text-white tracking-wider  ">
-            TRABALHANDO NISSO!!
-            </span>
-
-            <div className="pt-8 text-center">
-              <a href="/">
-                <button className=" rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                  Demo{" "}
-                </button>
-              </a>
-              <a href="/">
-                <button className=" rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                  {" "}
-                  Code
-                </button>
-              </a>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
   </div>
  
